@@ -1,0 +1,189 @@
+body {
+    background-color: #fff;
+}
+
+.tab-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tab-header-item {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-header-item.active {
+    background-color: #ddd;
+    border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #26cf0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #22b309;
+}
+.tab {
+    display: none;
+}
+.tab-header {
+    display: flex;
+    cursor: pointer;
+}
+.tab-header div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    width: 140px;
+    text-align: center;
+}
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.tab-active {
+    display: block;
+}
+.tab-header-active {
+    background-color: #ddd;
+}
+.displayMessage {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.displayMessage.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.displayMessage.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Previous records styles */
+#previous-records {
+    margin-top: 20px;
+}
+
+#previous-records div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+
+#previous-records div span {
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
